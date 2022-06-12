@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     android:background="#EF8BB3"
     android:clickable="true"
+    android:configChanges="orientation"
+    android:screenOrientation="portrait"
     tools:context=".MainActivity"
     tools:visibility="visible"
     android:focusable="true">
@@ -39,7 +41,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="147dp"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 app:srcCompat="@drawable/im_logo"
                 android:contentDescription="@string/logo_de_la_burra_jimena" />
 
