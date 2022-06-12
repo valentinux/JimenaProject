@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">La burra jimena</string>
+    <string name="app_name">La burra Jimena</string>
+    <string name="desayunos_personalizados">Desayunos personalizados</string>
+    <string name="logo_de_la_burra_jimena">logo de la burra Jimena</string>
 </resources>

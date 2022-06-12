@@ -8,7 +8,8 @@
     android:background="#EF8BB3"
     android:clickable="true"
     tools:context=".MainActivity"
-    tools:visibility="visible">
+    tools:visibility="visible"
+    android:focusable="true">
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -39,7 +40,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="147dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/im_logo" />
+                app:srcCompat="@drawable/im_logo"
+                android:contentDescription="@string/logo_de_la_burra_jimena" />
 
             <TextView
                 android:id="@+id/textoLogo"
@@ -47,11 +49,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:fontFamily="@font/lobster_regular"
-                android:gravity="center_horizontal|left"
+                android:gravity="center_horizontal|start"
                 android:paddingTop="20dp"
-                android:text="Desayunos personalizados"
+                android:text="@string/desayunos_personalizados"
                 android:textAlignment="center"
-                android:textColor="#E474B2"
+                android:textColor="#EC407A"
                 android:textSize="34sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
