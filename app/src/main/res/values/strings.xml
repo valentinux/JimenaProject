@@ -2,4 +2,7 @@
     <string name="app_name">La burra Jimena</string>
     <string name="desayunos_personalizados">Desayunos personalizados</string>
     <string name="logo_de_la_burra_jimena">logo de la burra Jimena</string>
+    <string name="user_button">User button</string>
+    <string name="log_in">Log in</string>
+    <string name="btnLoginDescription">Botón para hacer log in</string>
 </resources>

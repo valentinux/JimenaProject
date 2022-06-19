@@ -5,46 +5,62 @@
     android:id="@+id/MainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EF8BB3"
+    android:background="@drawable/border_radius"
     android:clickable="true"
     android:configChanges="orientation"
+    android:focusable="true"
     android:screenOrientation="portrait"
     tools:context=".MainActivity"
-    tools:visibility="visible"
-    android:focusable="true">
+    tools:visibility="visible">
+
+
+    <ImageButton
+        android:id="@+id/btnUser"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:background="@drawable/ic_baseline_person_24"
+
+
+        android:contentDescription="@string/user_button"
+
+        app:layout_constraintBottom_toTopOf="@id/crdTitle"
+        app:layout_constraintEnd_toEndOf="@id/MainLayout"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="@id/MainLayout"
+        app:layout_constraintTop_toTopOf="@id/MainLayout"
+        app:layout_constraintVertical_bias="0.01999998" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/crdTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="580dp"
         android:background="#F06292"
         app:cardCornerRadius="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:cardElevation="6dp">
+        app:cardElevation="6dp"
+        app:layout_constraintEnd_toEndOf="@id/MainLayout"
+        app:layout_constraintStart_toStartOf="@id/MainLayout"
+        app:layout_constraintTop_toBottomOf="@id/btnUser">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#FDFAFA"
             android:orientation="horizontal"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
             android:textAlignment="center">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="147dp"
-                android:layout_weight="2"
-                app:srcCompat="@drawable/im_logo"
-                android:contentDescription="@string/logo_de_la_burra_jimena" />
+                android:layout_weight="1"
+                android:contentDescription="@string/logo_de_la_burra_jimena"
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:srcCompat="@drawable/im_logo" />
 
             <TextView
                 android:id="@+id/textoLogo"
@@ -56,8 +72,26 @@
                 android:paddingTop="20dp"
                 android:text="@string/desayunos_personalizados"
                 android:textAlignment="center"
-                android:textColor="#EC407A"
+                android:textColor="#D142EA"
                 android:textSize="34sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <Button
+
+        android:id="@+id/btnLogin"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+
+        android:background="@drawable/border_radius"
+        android:contentDescription="@string/btnLoginDescription"
+        android:text="@string/log_in"
+        app:layout_constraintBottom_toTopOf="@+id/crdTitle"
+        app:layout_constraintEnd_toStartOf="@+id/btnUser"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
