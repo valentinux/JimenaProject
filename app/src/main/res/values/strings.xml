@@ -5,4 +5,5 @@
     <string name="user_button">User button</string>
     <string name="log_in">Log in</string>
     <string name="btnLoginDescription">Botón para hacer log in</string>
+    <string name="Entrar">Entrar</string>
 </resources>

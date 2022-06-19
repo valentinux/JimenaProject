@@ -87,7 +87,7 @@
 
         android:background="@drawable/border_radius"
         android:contentDescription="@string/btnLoginDescription"
-        android:text="@string/log_in"
+        android:text="@string/Entrar"
         app:layout_constraintBottom_toTopOf="@+id/crdTitle"
         app:layout_constraintEnd_toStartOf="@+id/btnUser"
         app:layout_constraintHorizontal_bias="0.968"
