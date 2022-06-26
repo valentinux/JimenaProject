@@ -6,4 +6,5 @@
     <string name="log_in">Log in</string>
     <string name="btnLoginDescription">Botón para hacer log in</string>
     <string name="Entrar">Entrar</string>
+    <string name="String_product_description">Imagen del producto</string>
 </resources>
