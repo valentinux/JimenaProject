@@ -8,8 +8,8 @@ import com.example.jimenaproject.ProductsModel
 import com.example.jimenaproject.R
 
 class ProductsViewHolder(view:View): RecyclerView.ViewHolder(view) {
-    val productName = view.findViewById<TextView>(R.id.tvproductname)
-    val productDescription = view.findViewById<TextView>(R.id.tvproductdescription)
+    val productName = view.findViewById<TextView>(R.id.tvnameProduct)
+    val productDescription = view.findViewById<TextView>(R.id.tvProductDescription)
     val productphoto = view.findViewById<ImageView>(R.id.ivProduct)
 
     fun render(productsModel: ProductsModel){

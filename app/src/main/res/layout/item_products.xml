@@ -3,32 +3,60 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_radius">
 
-    <ImageView
-        android:id="@+id/ivProduct"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:contentDescription="@string/String_product_description"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:background="@color/magenta" />
+   <androidx.cardview.widget.CardView
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/white"
+       app:cardCornerRadius="25dp">
 
-    <TextView
-        android:id="@+id/tvproductname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@+id/ivProduct"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="texto de prueba" />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:background="#FDFAFA"
+           >
 
-    <TextView
-        android:id="@+id/tvproductdescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@+id/ivProduct"
-        app:layout_constraintTop_toBottomOf="@id/tvproductname"
+           <ImageView
+               android:id="@+id/ivProduct"
+               android:layout_width="match_parent"
+               android:layout_height="119dp"
+               android:contentDescription="@string/imagen_del_producto"
+               android:src="@drawable/im_logo" />
 
-        tools:text="texto de prueba 2" />
+           <TextView
+               android:id="@+id/tvnameProduct"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textColor="@color/magenta"
+
+               android:textSize="24sp"
+               tools:text="Esto es un producto de prueba" />
+
+           <TextView
+               android:id="@+id/tvProductDescription"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:textColor="@color/black"
+               tools:text="Esta es uan descripcción de prueba" />
+
+
+       </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
