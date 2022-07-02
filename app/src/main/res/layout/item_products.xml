@@ -14,7 +14,7 @@
        android:layout_height="wrap_content"
        android:background="@color/white"
        app:cardCornerRadius="45dp"
-       android:layout_margin="16dp"
+       android:layout_margin="8dp"
        >
 
        <LinearLayout
@@ -29,7 +29,7 @@
                android:layout_width="match_parent"
                android:layout_height="119dp"
                android:contentDescription="@string/imagen_del_producto"
-               android:src="@drawable/im_logo" />
+               android:src="@drawable/producto" />
 
            <TextView
                android:id="@+id/tvnameProduct"
