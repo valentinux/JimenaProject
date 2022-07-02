@@ -7,7 +7,7 @@ class ProductsProvider {
                 1,
                 "Producto de prueba",
                 "Este es un producto de prueba",
-                "https://www.freepik.es/vector-gratis/barras-piezas-chocolate_3139372.htm#query=colacao&position=5&from_view=search"
+                "https://i.postimg.cc/44LJ8tXb/producto.jpg"
             ),
             ProductsModel(
                 2,

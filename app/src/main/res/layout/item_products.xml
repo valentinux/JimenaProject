@@ -26,10 +26,10 @@
 
            <ImageView
                android:id="@+id/ivProduct"
-               android:layout_width="match_parent"
-               android:layout_height="119dp"
-               android:contentDescription="@string/imagen_del_producto"
-               android:src="@drawable/producto" />
+               android:layout_width="120dp"
+               android:layout_height="120dp"
+               android:layout_gravity="center"
+               android:contentDescription="@string/imagen_del_producto" />
 
            <TextView
                android:id="@+id/tvnameProduct"
