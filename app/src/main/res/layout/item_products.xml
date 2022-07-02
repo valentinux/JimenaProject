@@ -52,6 +52,24 @@
                tools:text="Esta es uan descripcción de prueba" />
 
 
+           <ImageView
+               android:id="@+id/IconAdd"
+               android:layout_width="57dp"
+               android:layout_height="76dp"
+               android:layout_gravity="center"
+               android:contentDescription="@string/IconAddDescription"
+               android:src="@drawable/ic_add_shopping_cart" />
+
+           <TextView
+               android:id="@+id/tvIconHint"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:layout_gravity="center"
+               android:text="@string/IconHint" />
+
+
+
        </LinearLayout>
 
    </androidx.cardview.widget.CardView>
