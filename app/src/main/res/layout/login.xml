@@ -97,21 +97,7 @@
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerProducts"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@id/MainLayout"
-        app:layout_constraintHorizontal_bias="1.0"
 
-        app:layout_constraintStart_toStartOf="@id/MainLayout"
-        app:layout_constraintTop_toBottomOf="@id/crdTitle"
-        app:layout_constraintVertical_bias="1.0"
-        tools:listitem="@layout/item_products">
-
-    </androidx.recyclerview.widget.RecyclerView>
 
     <ImageView
         android:id="@+id/btnOrder"
