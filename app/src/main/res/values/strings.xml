@@ -9,7 +9,7 @@
     <string name="String_product_description">Imagen del producto</string>
     <string name="este_es_un_texto_de_prueba">Este es un texto de prueba</string>
     <string name="imagen_del_producto">Imagen del producto</string>
-    <string name="IconHint">Pulsa en el icono para añadir al carrito</string>
+    <string name="IconHint">Pulsa dos veces en el icono para añadir al desayuno</string>
     <string name="IconAddDescription">Icon for add product to order</string>
     <string name="IconOrderDescription">Icon of orders</string>
 </resources>
